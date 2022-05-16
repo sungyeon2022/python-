@@ -27,7 +27,5 @@ s1.discard(2)
 s1.discard(2)
 print(s1)#데이터 기준 삭제는 remove와 동일함
 #차이점 : remove는 삭제할 데이터가 없는 경우 Runtime에러(실행중 오류)를 출력 함
-#discard는 삭제할 데이터가 없는 경우에도 오류가 발생하지않음
-
-
+#discard는 삭제할 데이터가 없는 경우에도 에러가 발생하지 않음
 
