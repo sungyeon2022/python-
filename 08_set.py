@@ -15,3 +15,19 @@ print(tu1)
 s2 = set(lst1)
 print(s2)
 #set도 튜플과 리스트의 관계와 같음
+#데이터 추가
+s1.add(999)
+#데이터 삭제
+s1.remove(5)
+# s1.remove(5)
+print(s1)#데이터 기준 삭제
+s1.pop()
+print(s1)#첫번째 데이터 삭제
+s1.discard(2)
+s1.discard(2)
+print(s1)#데이터 기준 삭제는 remove와 동일함
+#차이점 : remove는 삭제할 데이터가 없는 경우 Runtime에러(실행중 오류)를 출력 함
+#discard는 삭제할 데이터가 없는 경우에도 오류가 발생하지않음
+
+
+
