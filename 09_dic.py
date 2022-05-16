@@ -26,6 +26,6 @@ print(dict1)
 #데이터 삭제
 dict1.pop('김영희')
 print(dict1)
-dict1.pop('조성연')#삭제할 데이터가 없어도 오류가 나지않음
+dict1.pop('조성연')#삭제할 데이터가 없으면 오류 남
 
 
