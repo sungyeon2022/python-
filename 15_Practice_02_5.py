@@ -3,3 +3,4 @@ print(a['금요일'])
 print(a['토요일'])
 print(a['일요일'])
 
+
