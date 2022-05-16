@@ -26,6 +26,7 @@ print(dict1)
 #데이터 삭제
 dict1.pop('김영희')
 print(dict1)
-dict1.pop('조성연')#삭제할 데이터가 없으면 오류 남
-
+# dict1.pop('조성연')#삭제할 데이터가 없으면 오류 남
+dict1.popitem() #마지막 키값과 데이터를 삭제
+print(dict1)
 
