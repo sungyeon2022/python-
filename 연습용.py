@@ -1,15 +1,10 @@
-a=list(map(int,(input().split())))
-re = 0
+a,b,c=map(int,(input().split())
+
 if a[0]==a[1] & a[0]==a[2] & a[1]==a[2] :
     re=10000
     print(re+a[0]*1000)
 elif a[0]!=a[1] & a[0]!=a[2] & a[1]!=a[2]:
-    max=0
-    for i in a :
-        print(i)
-        if max<i:
-            max = i
-    print(int(max)*100)
+    print(max(a)*100)
 else:
     re=1000
     if a[0]==a[1]:
