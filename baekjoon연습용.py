@@ -1,10 +1,12 @@
-max=list()
-min=list()
-a= int(input())
-for i in range(a+1):
-    mi=int(input())
-    if len(max)==0 and len(min)==0:
-        min.append(mi)
-    else:
+import sys
 
-    print(min[-1])
+minh=[]
+maxh=[]
+a=int(sys.stdin.readline())
+for i in range(a):
+    j=int(sys.stdin.readline())
+    minh.append(j)
+    if len(minh)>len(maxh):
+        
+
+
